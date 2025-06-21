@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğrulama Maili Gönder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex align-items-center justify-content-center min-vh-100 bg-gradient-primary">
+    <div class="auth-card card card-glass p-4 p-md-5 shadow-lg animate-fadeInUp" style="max-width: 410px; width: 100%;">
+        <div class="text-center mb-4">
+            <i class="bi bi-envelope-check display-4 text-primary mb-2"></i>
+            <h2 class="fw-bold mb-1" style="font-size:1.45rem;">Doğrulama Maili Gönder</h2>
+            <p class="text-muted mb-0" style="font-size:1rem;">E-posta adresinizi girin, doğrulama maili gönderelim.</p>
+        </div>
+        <form>
+            <div class="mb-3">
+                <label for="resendEmail" class="form-label">E-posta</label>
+                <input type="email" class="form-control" id="resendEmail" placeholder="E-posta adresiniz" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 fw-semibold py-2 mt-2">Doğrulama Maili Gönder</button>
+        </form>
+        <div class="text-center mt-3" style="font-size:0.97rem;">
+            <a href="login.html" class="fw-semibold">Girişe Dön</a>
+        </div>
+    </div>
+</body>
+</html>
